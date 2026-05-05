@@ -14,3 +14,9 @@ tags:
 - Created initial public-safe wiki scaffold.
 - Added schema, index, concepts, mitigations, ecosystems, prompts, data placeholders, and validation scripts.
 
+## 2026-05-05
+
+- Ran public advisory update.
+- Advisory pages written or refreshed: 10.
+- New JSONL records added: 10.
+
