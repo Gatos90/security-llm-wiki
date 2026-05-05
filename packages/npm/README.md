@@ -10,5 +10,4 @@ tags:
 
 # npm Package Notes
 
-Public npm package vulnerability notes belong here.
-
+Public npm package vulnerability notes belong here. Use PURL values such as `pkg:npm/<name>` as the stable package identity when inferable, and link package pages back to canonical advisory pages under `advisories/`.

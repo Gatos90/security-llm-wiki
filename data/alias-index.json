@@ -1,0 +1,95 @@
+{
+  "aliases": {
+    "CVE-2026-41922": {
+      "canonical_advisory": "advisories/cve/CVE-2026-41922",
+      "id": "CVE-2026-41922",
+      "packages": []
+    },
+    "CVE-2026-41923": {
+      "canonical_advisory": "advisories/cve/CVE-2026-41923",
+      "id": "CVE-2026-41923",
+      "packages": []
+    },
+    "CVE-2026-41924": {
+      "canonical_advisory": "advisories/cve/CVE-2026-41924",
+      "id": "CVE-2026-41924",
+      "packages": []
+    },
+    "CVE-2026-41925": {
+      "canonical_advisory": "advisories/cve/CVE-2026-41925",
+      "id": "CVE-2026-41925",
+      "packages": []
+    },
+    "CVE-2026-41926": {
+      "canonical_advisory": "advisories/cve/CVE-2026-41926",
+      "id": "CVE-2026-41926",
+      "packages": []
+    },
+    "CVE-2026-42088": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42088",
+      "id": "CVE-2026-42088",
+      "packages": [
+        "openc3-cosmos"
+      ]
+    },
+    "CVE-2026-42231": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42231",
+      "id": "CVE-2026-42231",
+      "packages": [
+        "pkg:npm/n8n"
+      ]
+    },
+    "CVE-2026-42232": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42232",
+      "id": "CVE-2026-42232",
+      "packages": [
+        "pkg:npm/n8n"
+      ]
+    },
+    "CVE-2026-42238": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42238",
+      "id": "CVE-2026-42238",
+      "packages": [
+        "nginx-ui"
+      ]
+    },
+    "CVE-2026-42796": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42796",
+      "id": "CVE-2026-42796",
+      "packages": [
+        "arelle"
+      ]
+    },
+    "GHSA-2WVH-87G2-89HR": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42088",
+      "id": "CVE-2026-42088",
+      "packages": [
+        "openc3-cosmos"
+      ]
+    },
+    "GHSA-4PVG-PRR3-9CXR": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42238",
+      "id": "CVE-2026-42238",
+      "packages": [
+        "nginx-ui"
+      ]
+    },
+    "GHSA-HQR4-H3XV-9M3R": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42232",
+      "id": "CVE-2026-42232",
+      "packages": [
+        "pkg:npm/n8n"
+      ]
+    },
+    "GHSA-Q5F4-99JV-PGG5": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42231",
+      "id": "CVE-2026-42231",
+      "packages": [
+        "pkg:npm/n8n"
+      ]
+    }
+  },
+  "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
+  "schema_version": "0.1.0",
+  "updated": "2026-05-05"
+}

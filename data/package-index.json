@@ -1,0 +1,65 @@
+{
+  "description": "Secondary index of public package and product entry points. PURL is the stable package identity when inferable.",
+  "packages": [
+    {
+      "advisories": [
+        "CVE-2026-42231",
+        "CVE-2026-42232"
+      ],
+      "aliases": [
+        "CVE-2026-42232",
+        "GHSA-HQR4-H3XV-9M3R",
+        "CVE-2026-42231",
+        "GHSA-Q5F4-99JV-PGG5"
+      ],
+      "display": "n8n",
+      "ecosystem": "npm",
+      "name": "n8n",
+      "path": "packages/npm/n8n",
+      "purl": "pkg:npm/n8n"
+    },
+    {
+      "advisories": [
+        "CVE-2026-42796"
+      ],
+      "aliases": [
+        "CVE-2026-42796"
+      ],
+      "display": "Arelle",
+      "ecosystem": "product",
+      "name": "arelle",
+      "path": "packages/product/arelle",
+      "purl": null
+    },
+    {
+      "advisories": [
+        "CVE-2026-42238"
+      ],
+      "aliases": [
+        "CVE-2026-42238",
+        "GHSA-4PVG-PRR3-9CXR"
+      ],
+      "display": "Nginx UI",
+      "ecosystem": "product",
+      "name": "nginx-ui",
+      "path": "packages/product/nginx-ui",
+      "purl": null
+    },
+    {
+      "advisories": [
+        "CVE-2026-42088"
+      ],
+      "aliases": [
+        "CVE-2026-42088",
+        "GHSA-2WVH-87G2-89HR"
+      ],
+      "display": "OpenC3 COSMOS",
+      "ecosystem": "product",
+      "name": "openc3-cosmos",
+      "path": "packages/product/openc3-cosmos",
+      "purl": null
+    }
+  ],
+  "schema_version": "0.1.0",
+  "updated": "2026-05-05"
+}

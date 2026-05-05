@@ -20,3 +20,8 @@ tags:
 - Advisory pages written or refreshed: 10.
 - New JSONL records added: 10.
 
+## 2026-05-05
+
+- Documented canonical advisory pages and secondary package/product entry points.
+- Refreshed current advisory pages with public package links where identifiable.
+- Added package and alias indexes for public advisory lookup.

@@ -10,5 +10,4 @@ tags:
 
 # Docker Image Notes
 
-Public container image and Docker ecosystem vulnerability notes belong here.
-
+Public container image and Docker ecosystem vulnerability notes belong here. Use PURL values such as `pkg:docker/<image>` as the stable image identity when inferable, and link image pages back to canonical advisory pages under `advisories/`.

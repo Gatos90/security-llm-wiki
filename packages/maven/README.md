@@ -10,5 +10,4 @@ tags:
 
 # Maven Package Notes
 
-Public Maven package vulnerability notes belong here.
-
+Public Maven package vulnerability notes belong here. Use PURL values such as `pkg:maven/<group>/<artifact>` as the stable package identity when inferable, and link package pages back to canonical advisory pages under `advisories/`.

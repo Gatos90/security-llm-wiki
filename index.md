@@ -50,6 +50,7 @@ tags:
 - [[packages/maven/README]]
 - [[packages/pypi/README]]
 - [[packages/docker/README]]
+- [[packages/product/README]]
 
 ## Reports
 
@@ -67,4 +68,5 @@ tags:
 
 - `data/advisories.jsonl`
 - `data/vulnerability-index.json`
-
+- `data/package-index.json`
+- `data/alias-index.json`

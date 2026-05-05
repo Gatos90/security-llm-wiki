@@ -117,7 +117,11 @@ def check_index(root: Path) -> list[str]:
 def check_data(root: Path) -> list[str]:
     errors: list[str] = []
     jsonl = root / "data" / "advisories.jsonl"
-    index = root / "data" / "vulnerability-index.json"
+    indexes = [
+        root / "data" / "vulnerability-index.json",
+        root / "data" / "package-index.json",
+        root / "data" / "alias-index.json",
+    ]
     if not jsonl.exists():
         errors.append("data/advisories.jsonl: missing")
     else:
@@ -128,13 +132,15 @@ def check_data(root: Path) -> list[str]:
                 json.loads(line)
             except json.JSONDecodeError as exc:
                 errors.append(f"data/advisories.jsonl:{line_no}: invalid JSON: {exc.msg}")
-    if not index.exists():
-        errors.append("data/vulnerability-index.json: missing")
-    else:
+    for index in indexes:
+        rel = index.relative_to(root).as_posix()
+        if not index.exists():
+            errors.append(f"{rel}: missing")
+            continue
         try:
             json.loads(index.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
-            errors.append(f"data/vulnerability-index.json: invalid JSON: {exc.msg}")
+            errors.append(f"{rel}: invalid JSON: {exc.msg}")
     return errors
 
 
@@ -162,4 +168,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

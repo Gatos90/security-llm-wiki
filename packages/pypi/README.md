@@ -10,5 +10,4 @@ tags:
 
 # PyPI Package Notes
 
-Public PyPI package vulnerability notes belong here.
-
+Public PyPI package vulnerability notes belong here. Use PURL values such as `pkg:pypi/<name>` as the stable package identity when inferable, and link package pages back to canonical advisory pages under `advisories/`.
