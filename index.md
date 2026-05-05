@@ -59,6 +59,7 @@ tags:
 ## Prompts
 
 - [[prompts/advisory-normalization]]
+- [[prompts/daily-security-wiki-update]]
 - [[prompts/public-safety-review]]
 - [[prompts/mitigation-summary]]
 
