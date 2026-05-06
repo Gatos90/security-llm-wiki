@@ -1,5 +1,25 @@
 {
   "aliases": {
+    "CVE-2023-54342": {
+      "canonical_advisory": "advisories/cve/CVE-2023-54342",
+      "id": "CVE-2023-54342",
+      "packages": []
+    },
+    "CVE-2023-54344": {
+      "canonical_advisory": "advisories/cve/CVE-2023-54344",
+      "id": "CVE-2023-54344",
+      "packages": []
+    },
+    "CVE-2025-13618": {
+      "canonical_advisory": "advisories/cve/CVE-2025-13618",
+      "id": "CVE-2025-13618",
+      "packages": []
+    },
+    "CVE-2026-40797": {
+      "canonical_advisory": "advisories/cve/CVE-2026-40797",
+      "id": "CVE-2026-40797",
+      "packages": []
+    },
     "CVE-2026-41922": {
       "canonical_advisory": "advisories/cve/CVE-2026-41922",
       "id": "CVE-2026-41922",
@@ -60,6 +80,16 @@
         "arelle"
       ]
     },
+    "CVE-2026-5294": {
+      "canonical_advisory": "advisories/cve/CVE-2026-5294",
+      "id": "CVE-2026-5294",
+      "packages": []
+    },
+    "CVE-2026-5722": {
+      "canonical_advisory": "advisories/cve/CVE-2026-5722",
+      "id": "CVE-2026-5722",
+      "packages": []
+    },
     "GHSA-2WVH-87G2-89HR": {
       "canonical_advisory": "advisories/cve/CVE-2026-42088",
       "id": "CVE-2026-42088",
@@ -91,5 +121,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-05-05"
+  "updated": "2026-05-06"
 }
