@@ -38,8 +38,8 @@ def _brand_pattern() -> str:
 
 RULES: list[tuple[str, re.Pattern[str]]] = [
     ("blocked organization marker", re.compile(rf"\b{_brand_pattern()}\b", re.IGNORECASE)),
-    # Block Jira-like private ticket keys but allow public vulnerability identifiers such as CVE-2026-1234.
-    ("jira-style ticket key", re.compile(r"\b(?!(?:CVE|CWE)-)[A-Z][A-Z0-9]{1,9}-\d{1,7}\b")),
+    # Block Jira-like private ticket keys but allow public vulnerability identifiers and known public vendor tracker IDs.
+    ("jira-style ticket key", re.compile(r"\b(?!(?:CVE|CWE|ZBX)-)[A-Z][A-Z0-9]{1,9}-\d{1,7}\b")),
     (
         "internal or private URL",
         re.compile(
