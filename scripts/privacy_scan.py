@@ -4,9 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import ipaddress
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 
 TEXT_EXTENSIONS = {
@@ -40,22 +42,6 @@ RULES: list[tuple[str, re.Pattern[str]]] = [
     ("blocked organization marker", re.compile(rf"\b{_brand_pattern()}\b", re.IGNORECASE)),
     # Block Jira-like private ticket keys but allow public vulnerability identifiers and known public/vendor IDs.
     ("jira-style ticket key", re.compile(r"\b(?!(?:CVE|CWE|ZBX|DIVD|FG-IR|BIP|ZSL)-)(?<!GHSA-)(?<!FG-)[A-Z][A-Z0-9]{1,9}-\d{1,7}\b")),
-    (
-        "internal or private URL",
-        re.compile(
-            r"(?i)\b(?:"
-            r"https?://[^\s)>\"]*(?:corp|internal|intranet|lan|local|localhost|private|"
-            r"10\.\d{1,3}\.\d{1,3}\.\d{1,3}|"
-            r"172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3}|"
-            r"192\.168\.\d{1,3}\.\d{1,3})[^\s)>\"]*"
-            r"|(?:[\w-]+\.)+(?:corp|internal|intranet|lan|local|private)(?::\d+)?(?:/[^\s)>\"]*)?"
-            r"|localhost(?::\d+)?(?:/[^\s)>\"]*)?"
-            r"|10\.\d{1,3}\.\d{1,3}\.\d{1,3}"
-            r"|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3}"
-            r"|192\.168\.\d{1,3}\.\d{1,3}"
-            r")\b"
-        ),
-    ),
     ("aws access key", re.compile(r"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b")),
     (
         "generic secret assignment",
@@ -75,6 +61,37 @@ RULES: list[tuple[str, re.Pattern[str]]] = [
     ("github token", re.compile(r"\bgh[opsu]_[A-Za-z0-9_]{20,}\b")),
     ("slack token", re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{10,}\b")),
 ]
+
+URL_PATTERN = re.compile(r"https?://[^\s)>\"]+", re.IGNORECASE)
+BARE_PRIVATE_HOST_PATTERN = re.compile(
+    r"(?i)\b(?:[\w-]+\.)+(?:corp|internal|intranet|lan|local|private)(?::\d+)?(?:/[^\s)>\"]*)?"
+)
+HOST_SUFFIXES = ("corp", "internal", "intranet", "lan", "local", "private")
+
+
+def _host_is_private(host: str | None) -> bool:
+    if not host:
+        return False
+    host = host.strip("[]").lower().rstrip(".")
+    if host == "localhost" or any(host.endswith(f".{suffix}") for suffix in HOST_SUFFIXES):
+        return True
+    try:
+        ip = ipaddress.ip_address(host)
+    except ValueError:
+        return False
+    return ip.is_private or ip.is_loopback or ip.is_link_local
+
+
+def line_has_internal_or_private_url(line: str) -> bool:
+    """Detect private hosts without flagging public URLs whose path contains words like 'internal'."""
+    for match in URL_PATTERN.finditer(line):
+        if _host_is_private(urlparse(match.group(0)).hostname):
+            return True
+    for match in BARE_PRIVATE_HOST_PATTERN.finditer(line):
+        host = match.group(0).split("/", 1)[0].split(":", 1)[0]
+        if _host_is_private(host):
+            return True
+    return False
 
 
 def iter_files(root: Path) -> list[Path]:
@@ -98,6 +115,8 @@ def scan_file(path: Path, root: Path) -> list[str]:
 
     findings: list[str] = []
     for line_no, line in enumerate(text.splitlines(), start=1):
+        if line_has_internal_or_private_url(line):
+            findings.append(f"{rel}:{line_no}: internal or private URL")
         for name, pattern in RULES:
             if pattern.search(line):
                 findings.append(f"{rel}:{line_no}: {name}")
