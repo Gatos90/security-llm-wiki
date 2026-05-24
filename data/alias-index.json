@@ -940,6 +940,11 @@
       "id": "CVE-2026-8959",
       "packages": []
     },
+    "CVE-2026-9018": {
+      "canonical_advisory": "advisories/cve/CVE-2026-9018",
+      "id": "CVE-2026-9018",
+      "packages": []
+    },
     "CVE-2026-9102": {
       "canonical_advisory": "advisories/cve/CVE-2026-9102",
       "id": "CVE-2026-9102",
@@ -1256,5 +1261,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-05-23"
+  "updated": "2026-05-24"
 }
