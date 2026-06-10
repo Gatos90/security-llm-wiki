@@ -285,6 +285,11 @@
       "id": "CVE-2026-11499",
       "packages": []
     },
+    "CVE-2026-11632": {
+      "canonical_advisory": "advisories/cve/CVE-2026-11632",
+      "id": "CVE-2026-11632",
+      "packages": []
+    },
     "CVE-2026-1719": {
       "canonical_advisory": "advisories/cve/CVE-2026-1719",
       "id": "CVE-2026-1719",
@@ -363,6 +368,11 @@
     "CVE-2026-28780": {
       "canonical_advisory": "advisories/cve/CVE-2026-28780",
       "id": "CVE-2026-28780",
+      "packages": []
+    },
+    "CVE-2026-29167": {
+      "canonical_advisory": "advisories/cve/CVE-2026-29167",
+      "id": "CVE-2026-29167",
       "packages": []
     },
     "CVE-2026-29204": {
@@ -827,6 +837,11 @@
       "packages": [
         "nginx-ui"
       ]
+    },
+    "CVE-2026-42535": {
+      "canonical_advisory": "advisories/cve/CVE-2026-42535",
+      "id": "CVE-2026-42535",
+      "packages": []
     },
     "CVE-2026-42560": {
       "canonical_advisory": "advisories/cve/CVE-2026-42560",
@@ -1408,6 +1423,11 @@
     "CVE-2026-5241": {
       "canonical_advisory": "advisories/cve/CVE-2026-5241",
       "id": "CVE-2026-5241",
+      "packages": []
+    },
+    "CVE-2026-52778": {
+      "canonical_advisory": "advisories/cve/CVE-2026-52778",
+      "id": "CVE-2026-52778",
       "packages": []
     },
     "CVE-2026-5294": {
@@ -2011,6 +2031,11 @@
       "id": "CVE-2026-44643",
       "packages": []
     },
+    "GHSA-PX5M-H76G-P7P8": {
+      "canonical_advisory": "advisories/cve/CVE-2026-52778",
+      "id": "CVE-2026-52778",
+      "packages": []
+    },
     "GHSA-PXM6-MHXR-Q4MJ": {
       "canonical_advisory": "advisories/cve/CVE-2026-42613",
       "id": "CVE-2026-42613",
@@ -2126,5 +2151,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-06-09"
+  "updated": "2026-06-10"
 }
