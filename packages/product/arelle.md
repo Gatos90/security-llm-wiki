@@ -2,7 +2,7 @@
 title: Arelle
 type: package
 status: draft
-updated: 2026-06-10
+updated: 2026-06-11
 ecosystem: product
 package: arelle
 aliases:
