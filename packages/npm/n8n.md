@@ -2,7 +2,7 @@
 title: n8n
 type: package
 status: draft
-updated: 2026-06-22
+updated: 2026-06-23
 ecosystem: npm
 package: n8n
 purl: pkg:npm/n8n
