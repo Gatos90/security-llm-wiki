@@ -4,13 +4,22 @@
     {
       "advisories": [
         "CVE-2026-42231",
-        "CVE-2026-42232"
+        "CVE-2026-42232",
+        "CVE-2026-44789",
+        "CVE-2026-44790",
+        "CVE-2026-44791"
       ],
       "aliases": [
         "CVE-2026-42232",
         "GHSA-HQR4-H3XV-9M3R",
         "CVE-2026-42231",
-        "GHSA-Q5F4-99JV-PGG5"
+        "GHSA-Q5F4-99JV-PGG5",
+        "CVE-2026-44791",
+        "GHSA-WRWR-H859-XH2R",
+        "CVE-2026-44790",
+        "GHSA-57G9-58C2-XJG3",
+        "CVE-2026-44789",
+        "GHSA-C8XV-5998-G76H"
       ],
       "display": "n8n",
       "ecosystem": "npm",
@@ -61,5 +70,5 @@
     }
   ],
   "schema_version": "0.1.0",
-  "updated": "2026-06-24"
+  "updated": "2026-06-25"
 }
