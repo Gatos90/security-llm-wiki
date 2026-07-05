@@ -2,7 +2,7 @@
 title: n8n
 type: package
 status: draft
-updated: 2026-07-04
+updated: 2026-07-05
 ecosystem: npm
 package: n8n
 purl: pkg:npm/n8n
@@ -17,6 +17,8 @@ aliases:
   - GHSA-57G9-58C2-XJG3
   - CVE-2026-44789
   - GHSA-C8XV-5998-G76H
+  - CVE-2025-71380
+  - GHSA-365G-VJW2-GRX8
 tags:
   - packages
   - npm
@@ -36,6 +38,7 @@ This page is a secondary package or product entry point. Canonical advisory reco
 
 ## Advisory Links
 
+- [[advisories/cve/CVE-2025-71380|CVE-2025-71380]] - HIGH - published 2026-07-04T02:16:23.477
 - [[advisories/cve/CVE-2026-42231|CVE-2026-42231]] - CRITICAL - published 2026-05-04T19:16:05.417
 - [[advisories/cve/CVE-2026-42232|CVE-2026-42232]] - CRITICAL - published 2026-05-04T19:16:05.610
 - [[advisories/cve/CVE-2026-44789|CVE-2026-44789]] - CRITICAL - published 2026-06-23T17:16:59.290
@@ -56,6 +59,8 @@ Affected ranges and fixed versions are maintained as data fields and list values
 - https://github.com/n8n-io/n8n/security/advisories/GHSA-wrwr-h859-xh2r
 - https://github.com/n8n-io/n8n/security/advisories/GHSA-57g9-58c2-xjg3
 - https://github.com/n8n-io/n8n/security/advisories/GHSA-c8xv-5998-g76h
+- https://github.com/n8n-io/n8n/security/advisories/GHSA-365g-vjw2-grx8
+- https://www.vulncheck.com/advisories/n8n-arbitrary-command-execution-via-execute-command-node
 
 ## Retrieval Notes
 

@@ -3,6 +3,7 @@
   "packages": [
     {
       "advisories": [
+        "CVE-2025-71380",
         "CVE-2026-42231",
         "CVE-2026-42232",
         "CVE-2026-44789",
@@ -19,7 +20,9 @@
         "CVE-2026-44790",
         "GHSA-57G9-58C2-XJG3",
         "CVE-2026-44789",
-        "GHSA-C8XV-5998-G76H"
+        "GHSA-C8XV-5998-G76H",
+        "CVE-2025-71380",
+        "GHSA-365G-VJW2-GRX8"
       ],
       "display": "n8n",
       "ecosystem": "npm",
@@ -70,5 +73,5 @@
     }
   ],
   "schema_version": "0.1.0",
-  "updated": "2026-07-04"
+  "updated": "2026-07-05"
 }
