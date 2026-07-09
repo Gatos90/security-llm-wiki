@@ -42,7 +42,7 @@ RULES: list[tuple[str, re.Pattern[str]]] = [
     ("blocked organization marker", re.compile(rf"\b{_brand_pattern()}\b", re.IGNORECASE)),
     # Block Jira-like private ticket keys but allow public vulnerability identifiers,
     # known public/vendor IDs, and cryptographic algorithm names such as AES-256.
-    ("jira-style ticket key", re.compile(r"\b(?!(?:CVE|CWE|GHSA|RHSA|ZBX|DIVD|FG-IR|BIP|ZSL|ZDI|KA|DI|VDE|OSSA|SVD|AES|KIS|GD)-)(?<!GHSA-)(?<!GHSA-[A-Z0-9]{4}-)(?<!FG-)[A-Z][A-Z0-9]{1,9}-\d{1,7}\b")),
+    ("jira-style ticket key", re.compile(r"\b(?!(?:CVE|CWE|GHSA|RHSA|ZBX|DIVD|FG-IR|BIP|ZSL|ZDI|KA|DI|VDE|OSSA|SVD|AES|KIS|GD|DBI)-)(?<!GHSA-)(?<!GHSA-[A-Z0-9]{4}-)(?<!FG-)[A-Z][A-Z0-9]{1,9}-\d{1,7}\b")),
     ("aws access key", re.compile(r"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b")),
     (
         "generic secret assignment",

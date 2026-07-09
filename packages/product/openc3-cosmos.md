@@ -2,7 +2,7 @@
 title: OpenC3 COSMOS
 type: package
 status: draft
-updated: 2026-07-08
+updated: 2026-07-09
 ecosystem: product
 package: openc3-cosmos
 aliases:
