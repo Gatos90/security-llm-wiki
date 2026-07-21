@@ -3223,6 +3223,66 @@
       "id": "CVE-2026-63089",
       "packages": []
     },
+    "CVE-2026-63795": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63795",
+      "id": "CVE-2026-63795",
+      "packages": []
+    },
+    "CVE-2026-63800": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63800",
+      "id": "CVE-2026-63800",
+      "packages": []
+    },
+    "CVE-2026-63808": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63808",
+      "id": "CVE-2026-63808",
+      "packages": []
+    },
+    "CVE-2026-63825": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63825",
+      "id": "CVE-2026-63825",
+      "packages": []
+    },
+    "CVE-2026-63830": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63830",
+      "id": "CVE-2026-63830",
+      "packages": []
+    },
+    "CVE-2026-63857": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63857",
+      "id": "CVE-2026-63857",
+      "packages": []
+    },
+    "CVE-2026-63886": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63886",
+      "id": "CVE-2026-63886",
+      "packages": []
+    },
+    "CVE-2026-63887": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63887",
+      "id": "CVE-2026-63887",
+      "packages": []
+    },
+    "CVE-2026-63888": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63888",
+      "id": "CVE-2026-63888",
+      "packages": []
+    },
+    "CVE-2026-63912": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63912",
+      "id": "CVE-2026-63912",
+      "packages": []
+    },
+    "CVE-2026-63922": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63922",
+      "id": "CVE-2026-63922",
+      "packages": []
+    },
+    "CVE-2026-63924": {
+      "canonical_advisory": "advisories/cve/CVE-2026-63924",
+      "id": "CVE-2026-63924",
+      "packages": []
+    },
     "CVE-2026-6509": {
       "canonical_advisory": "advisories/cve/CVE-2026-6509",
       "id": "CVE-2026-6509",
@@ -4582,5 +4642,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-07-20"
+  "updated": "2026-07-21"
 }
