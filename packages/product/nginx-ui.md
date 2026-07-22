@@ -2,7 +2,7 @@
 title: Nginx UI
 type: package
 status: draft
-updated: 2026-07-21
+updated: 2026-07-22
 ecosystem: product
 package: nginx-ui
 aliases:
