@@ -892,6 +892,16 @@
       "id": "CVE-2026-2815",
       "packages": []
     },
+    "CVE-2026-28317": {
+      "canonical_advisory": "advisories/cve/CVE-2026-28317",
+      "id": "CVE-2026-28317",
+      "packages": []
+    },
+    "CVE-2026-28321": {
+      "canonical_advisory": "advisories/cve/CVE-2026-28321",
+      "id": "CVE-2026-28321",
+      "packages": []
+    },
     "CVE-2026-28742": {
       "canonical_advisory": "advisories/cve/CVE-2026-28742",
       "id": "CVE-2026-28742",
@@ -2223,6 +2233,46 @@
       "id": "CVE-2026-47372",
       "packages": []
     },
+    "CVE-2026-47391": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47391",
+      "id": "CVE-2026-47391",
+      "packages": []
+    },
+    "CVE-2026-47392": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47392",
+      "id": "CVE-2026-47392",
+      "packages": []
+    },
+    "CVE-2026-47393": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47393",
+      "id": "CVE-2026-47393",
+      "packages": []
+    },
+    "CVE-2026-47396": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47396",
+      "id": "CVE-2026-47396",
+      "packages": []
+    },
+    "CVE-2026-47407": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47407",
+      "id": "CVE-2026-47407",
+      "packages": []
+    },
+    "CVE-2026-47410": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47410",
+      "id": "CVE-2026-47410",
+      "packages": []
+    },
+    "CVE-2026-47413": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47413",
+      "id": "CVE-2026-47413",
+      "packages": []
+    },
+    "CVE-2026-47416": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47416",
+      "id": "CVE-2026-47416",
+      "packages": []
+    },
     "CVE-2026-47430": {
       "canonical_advisory": "advisories/cve/CVE-2026-47430",
       "id": "CVE-2026-47430",
@@ -3343,6 +3393,16 @@
       "id": "CVE-2026-63924",
       "packages": []
     },
+    "CVE-2026-64824": {
+      "canonical_advisory": "advisories/cve/CVE-2026-64824",
+      "id": "CVE-2026-64824",
+      "packages": []
+    },
+    "CVE-2026-64825": {
+      "canonical_advisory": "advisories/cve/CVE-2026-64825",
+      "id": "CVE-2026-64825",
+      "packages": []
+    },
     "CVE-2026-6509": {
       "canonical_advisory": "advisories/cve/CVE-2026-6509",
       "id": "CVE-2026-6509",
@@ -3837,6 +3897,11 @@
       "id": "CVE-2026-49261",
       "packages": []
     },
+    "GHSA-3QG8-5G3R-79V5": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47410",
+      "id": "CVE-2026-47410",
+      "packages": []
+    },
     "GHSA-3V3M-WC6V-X4X3": {
       "canonical_advisory": "advisories/cve/CVE-2026-42880",
       "id": "CVE-2026-42880",
@@ -3870,6 +3935,11 @@
     "GHSA-4GXJ-HW3C-3X2X": {
       "canonical_advisory": "advisories/cve/CVE-2026-42869",
       "id": "CVE-2026-42869",
+      "packages": []
+    },
+    "GHSA-4MR5-G6F9-CFRH": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47392",
+      "id": "CVE-2026-47392",
       "packages": []
     },
     "GHSA-4PCC-J6M6-WCWX": {
@@ -3951,6 +4021,11 @@
       "id": "CVE-2026-41574",
       "packages": []
     },
+    "GHSA-6RMH-7XCM-CPXJ": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47393",
+      "id": "CVE-2026-47393",
+      "packages": []
+    },
     "GHSA-6VVV-VMFR-XHRX": {
       "canonical_advisory": "advisories/cve/CVE-2026-27960",
       "id": "CVE-2026-27960",
@@ -3986,6 +4061,11 @@
       "id": "CVE-2026-41588",
       "packages": []
     },
+    "GHSA-78R8-WWQV-R299": {
+      "canonical_advisory": "advisories/cve/CVE-2026-64824",
+      "id": "CVE-2026-64824",
+      "packages": []
+    },
     "GHSA-7CV6-H22R-2QF2": {
       "canonical_advisory": "advisories/cve/CVE-2026-44668",
       "id": "CVE-2026-44668",
@@ -4006,14 +4086,29 @@
       "id": "CVE-2026-53662",
       "packages": []
     },
+    "GHSA-8444-4FHQ-FXPQ": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47393",
+      "id": "CVE-2026-47393",
+      "packages": []
+    },
     "GHSA-85C2-Q967-79Q5": {
       "canonical_advisory": "advisories/cve/CVE-2026-6722",
       "id": "CVE-2026-6722",
       "packages": []
     },
+    "GHSA-86QC-R5V2-V6X6": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47396",
+      "id": "CVE-2026-47396",
+      "packages": []
+    },
     "GHSA-886Q-F44J-H6WH": {
       "canonical_advisory": "advisories/cve/CVE-2026-44650",
       "id": "CVE-2026-44650",
+      "packages": []
+    },
+    "GHSA-8G2P-PQM3-FCFH": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47413",
+      "id": "CVE-2026-47413",
       "packages": []
     },
     "GHSA-8JGF-23Q5-X7XX": {
@@ -4109,6 +4204,11 @@
     "GHSA-9X85-7GXQ-FCR3": {
       "canonical_advisory": "advisories/cve/CVE-2026-45408",
       "id": "CVE-2026-45408",
+      "packages": []
+    },
+    "GHSA-C2M8-4GCG-V22G": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47416",
+      "id": "CVE-2026-47416",
       "packages": []
     },
     "GHSA-C3QP-2GGW-XJG7": {
@@ -4251,6 +4351,11 @@
     "GHSA-H752-VHMF-29W6": {
       "canonical_advisory": "advisories/cve/CVE-2026-10646",
       "id": "CVE-2026-10646",
+      "packages": []
+    },
+    "GHSA-H8Q5-CP56-RR65": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47407",
+      "id": "CVE-2026-47407",
       "packages": []
     },
     "GHSA-HF8H-RJRF-3JG6": {
@@ -4597,6 +4702,11 @@
       "id": "CVE-2026-48519",
       "packages": []
     },
+    "GHSA-VG22-4GMJ-PRXW": {
+      "canonical_advisory": "advisories/cve/CVE-2026-47391",
+      "id": "CVE-2026-47391",
+      "packages": []
+    },
     "GHSA-VMWP-VH32-RJ75": {
       "canonical_advisory": "advisories/cve/CVE-2026-46562",
       "id": "CVE-2026-46562",
@@ -4732,5 +4842,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-07-22"
+  "updated": "2026-07-23"
 }
