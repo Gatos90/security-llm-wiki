@@ -536,3 +536,9 @@ tags:
 - Advisory pages written or refreshed: 12.
 - New JSONL records added: 12.
 
+## 2026-07-26
+
+- Ran public advisory update.
+- Advisory pages written or refreshed: 12.
+- New JSONL records added: 12.
+
