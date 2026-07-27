@@ -5027,5 +5027,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-07-26"
+  "updated": "2026-07-27"
 }
