@@ -767,6 +767,11 @@
       "id": "CVE-2026-1719",
       "packages": []
     },
+    "CVE-2026-17552": {
+      "canonical_advisory": "advisories/cve/CVE-2026-17552",
+      "id": "CVE-2026-17552",
+      "packages": []
+    },
     "CVE-2026-20253": {
       "canonical_advisory": "advisories/cve/CVE-2026-20253",
       "id": "CVE-2026-20253",
@@ -2713,6 +2718,16 @@
       "id": "CVE-2026-51119",
       "packages": []
     },
+    "CVE-2026-51300": {
+      "canonical_advisory": "advisories/cve/CVE-2026-51300",
+      "id": "CVE-2026-51300",
+      "packages": []
+    },
+    "CVE-2026-51302": {
+      "canonical_advisory": "advisories/cve/CVE-2026-51302",
+      "id": "CVE-2026-51302",
+      "packages": []
+    },
     "CVE-2026-51303": {
       "canonical_advisory": "advisories/cve/CVE-2026-51303",
       "id": "CVE-2026-51303",
@@ -2916,6 +2931,11 @@
     "CVE-2026-55500": {
       "canonical_advisory": "advisories/cve/CVE-2026-55500",
       "id": "CVE-2026-55500",
+      "packages": []
+    },
+    "CVE-2026-55579": {
+      "canonical_advisory": "advisories/cve/CVE-2026-55579",
+      "id": "CVE-2026-55579",
       "packages": []
     },
     "CVE-2026-55953": {
@@ -4291,6 +4311,11 @@
       "id": "CVE-2026-46354",
       "packages": []
     },
+    "GHSA-6X4W-X68J-PPQQ": {
+      "canonical_advisory": "advisories/cve/CVE-2026-17552",
+      "id": "CVE-2026-17552",
+      "packages": []
+    },
     "GHSA-6XQG-2CJQ-95QF": {
       "canonical_advisory": "advisories/cve/CVE-2026-34458",
       "id": "CVE-2026-34458",
@@ -4750,6 +4775,11 @@
       "id": "CVE-2026-16117",
       "packages": []
     },
+    "GHSA-P4H7-P9RJ-2PQ2": {
+      "canonical_advisory": "advisories/cve/CVE-2026-55579",
+      "id": "CVE-2026-55579",
+      "packages": []
+    },
     "GHSA-P6X5-P4XF-CC4R": {
       "canonical_advisory": "advisories/cve/CVE-2026-41507",
       "id": "CVE-2026-41507",
@@ -5117,5 +5147,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-07-28"
+  "updated": "2026-07-29"
 }
