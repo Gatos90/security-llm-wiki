@@ -119,7 +119,14 @@ def scan_file(path: Path, root: Path) -> list[str]:
         if line_has_internal_or_private_url(line):
             findings.append(f"{rel}:{line_no}: internal or private URL")
         for name, pattern in RULES:
-            if pattern.search(line):
+            scan_line = line
+            if name == "jira-style ticket key":
+                # Public advisory references often contain product/version identifiers that
+                # resemble Jira keys (for example, Net-SAML2-0.86 or firmware paths).
+                # Private hosts are still caught above; avoid false positives inside
+                # public source URLs while continuing to scan surrounding prose.
+                scan_line = URL_PATTERN.sub("", line)
+            if pattern.search(scan_line):
                 findings.append(f"{rel}:{line_no}: {name}")
     return findings
 
