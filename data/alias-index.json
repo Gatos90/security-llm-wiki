@@ -4103,9 +4103,69 @@
       "id": "CVE-2026-71851",
       "packages": []
     },
+    "CVE-2026-71958": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71958",
+      "id": "CVE-2026-71958",
+      "packages": []
+    },
     "CVE-2026-7198": {
       "canonical_advisory": "advisories/cve/CVE-2026-7198",
       "id": "CVE-2026-7198",
+      "packages": []
+    },
+    "CVE-2026-71983": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71983",
+      "id": "CVE-2026-71983",
+      "packages": []
+    },
+    "CVE-2026-71984": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71984",
+      "id": "CVE-2026-71984",
+      "packages": []
+    },
+    "CVE-2026-71985": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71985",
+      "id": "CVE-2026-71985",
+      "packages": []
+    },
+    "CVE-2026-71986": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71986",
+      "id": "CVE-2026-71986",
+      "packages": []
+    },
+    "CVE-2026-71987": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71987",
+      "id": "CVE-2026-71987",
+      "packages": []
+    },
+    "CVE-2026-71988": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71988",
+      "id": "CVE-2026-71988",
+      "packages": []
+    },
+    "CVE-2026-71989": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71989",
+      "id": "CVE-2026-71989",
+      "packages": []
+    },
+    "CVE-2026-71990": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71990",
+      "id": "CVE-2026-71990",
+      "packages": []
+    },
+    "CVE-2026-71991": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71991",
+      "id": "CVE-2026-71991",
+      "packages": []
+    },
+    "CVE-2026-71992": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71992",
+      "id": "CVE-2026-71992",
+      "packages": []
+    },
+    "CVE-2026-71993": {
+      "canonical_advisory": "advisories/cve/CVE-2026-71993",
+      "id": "CVE-2026-71993",
       "packages": []
     },
     "CVE-2026-7251": {
@@ -5687,5 +5747,5 @@
   },
   "description": "Public advisory alias index. Aliases resolve to canonical advisory pages.",
   "schema_version": "0.1.0",
-  "updated": "2026-08-09"
+  "updated": "2026-08-10"
 }
